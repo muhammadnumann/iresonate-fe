@@ -1,0 +1,135 @@
+@import "../../../../assets/less/_variables.less";
+.registration-steps {
+  .main-registration-section {
+    text-align: center;
+    position: relative;
+    margin-top: 1.25rem;
+    .main-steps {
+      padding-right: 15px;
+      padding-left: 15px;
+      .ant-steps {
+        margin-bottom: 10px;
+        overflow: hidden;
+        color: lightgrey;
+        display: grid;
+        padding: 1rem;
+        .ant-steps-item {
+          .ant-steps-item-container {
+            .ant-steps-item-tail,.ant-steps-item-icon {
+              display: none;
+            }
+          }
+          .ant-steps-item-content {
+            padding: 1rem 1rem 1rem 1rem;
+            .ant-steps-item-title {
+              font-size: 12px;
+              text-align: left;
+              font-weight: bold;
+              color: @text-color;
+              line-height: 1.5;
+            }
+            .ant-steps-item-description {
+              padding-bottom: 0px;
+              color:@text-color;
+              font-size: 12px;
+              font-weight: 400;
+              line-height: 1.5;
+            }
+          }
+        }
+        .ant-steps-item-active,.ant-steps-item-finish {
+          border-radius: 10px;
+          box-shadow: 0 0 10px #aaa;
+          border-left: 5px solid #ff6565;
+          margin-top: 1rem
+        }
+      }
+      .login-main {
+        background: #FFE7B4;
+        padding: 1.2rem;
+        .login-content {
+          font-size: 0.8rem;
+          margin-bottom: 0;
+          font-weight: 400;
+          line-height: 1.5;
+          color:@text-color;
+          .login-title {
+            color:#D62342;
+            cursor: pointer;
+          }
+        }
+        .dol-img {
+          width: 70px;
+          margin-top: 1rem;
+        }
+      }
+    }
+    .steps-content {
+      text-align: left;
+      color: @gray-test;
+      padding:20px 40px 0px 40px;
+      @media screen and (min-width: 992px) {
+        margin: 1rem 1rem 0rem 1rem;
+      }
+    }
+    .steps-action {
+      padding: 0px 40px 20px 40px;
+      @media screen and (min-width: 992px) {
+        margin: 1rem 1rem 0rem 1rem;
+      }
+      .ant-row {
+        .ant-col {
+          padding: 0 15px; 
+        }
+      }
+      .next-step-div,.agree-step-div,.previous-step-div {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding-right: 15px;
+      }
+      .next-btn,.agree-btn {
+        background: @light-red;
+        font-weight: bold;
+        border-radius: 5px;
+        padding: 0.5rem 3rem;
+        font-size: 12px;
+        line-height: inherit;
+        &:hover, &:focus {
+            box-shadow: 0 0 0 2px @white, 0 0 0 3px skyblue
+          }
+      }
+      .previous-btn {
+        font-weight: bold;
+        color: @light-red;
+        border: 2px solid;
+        border-radius: 5px;
+        padding: 1rem 3rem;
+        line-height: inherit;
+        font-size: 12px;
+        letter-spacing: 1px;
+          &:hover, &:focus {
+        box-shadow: 0 0 0 2px @white, 0 0 0 3px #616161
+      }
+      }
+    .step-start {
+      margin-top: 0px;
+    }
+    }
+  }
+}
+
+@media screen and (max-width:576px) { 
+  .registration-steps {
+    .main-registration-section {
+      .steps-action {
+        .agree-step-div,.previous-step-div,.next-step-div {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding-right: 0px;
+        }
+      }
+      }
+  }
+}

@@ -1,0 +1,139 @@
+@import "../../../../assets/less/_variables.less";
+
+.web-host-step-card {
+  box-shadow: 0 1px 4px rgb(0 0 0 / 16%);
+  .ant-card-head {
+    .ant-card-head-wrapper {
+      .ant-card-head-title {
+        font-weight: bold;
+      }
+    }
+  }
+  .ant-card-body {
+    .member-edit-form {
+      .form-control {
+        margin-top: 10px;
+      }
+      
+    }
+  }
+}
+
+// Add Website page
+.add-website-form {
+  .main-form {
+    margin-top:1rem;
+    .add-website-table {
+      margin-top:1rem;
+      .ant-table {
+        &-thead > tr {
+          
+          > th {
+            background: @gainsboro;
+            font-weight: bold;
+            color: @black;
+            font-size: 0.8rem;
+            padding:10px 16px;
+            &:first-child {
+              border-top-left-radius: 5px;
+              border-bottom-left-radius: 5px;
+              display: flex;
+              justify-content: center;
+            }
+            &:last-child {
+              display: flex;
+              justify-content: center;
+              border-top-left-radius: 0px;
+              border-bottom-left-radius: 0px;
+              border-top-right-radius: 5px;
+              border-bottom-right-radius: 5px;
+            }
+          }
+        }
+        &-tbody > tr {
+          > td {
+           color: @cyan-blue;
+           font-size: 0.8rem;
+           background: @light-gray;
+           font-size: 0.8rem;
+          border-bottom: 1px solid @black-Russian;
+           &:hover {
+            text-decoration: underline;
+           }
+            &:last-child,  &:first-child {
+              text-align: center;
+            }
+            .ant-switch {
+              height:100% ;
+              min-height: 20px;
+              min-width: 35px;
+              background-color: @white;
+              border: @hitGray solid 1px;
+              .ant-switch-handle {
+                width:14px;
+                height:14px;
+                &:before {
+                  background-color: @hitGray;
+                }
+              }
+             
+            }
+            .ant-switch-checked {
+              background-color: @light-red;
+            }
+            }
+          }
+        }
+    }
+  }
+
+}
+
+//  financial-page
+.financial-main-details {
+  .main-details-form {
+    .details-title {
+      margin-bottom: 1rem;
+    }
+    .financial-main-form {
+      .label-name {
+        padding: 0 8px
+      }
+      .form-control {
+        margin-top: 10px;
+      }
+    }
+    
+  }
+}
+
+
+@media screen and (max-width: 576px) {
+  .web-host-step-card {
+    .ant-card-head {
+      .ant-tabs {
+        .ant-tabs-nav {
+          .ant-tabs-nav-wrap {
+            .ant-tabs-nav-list {
+              flex-wrap: wrap;
+              .ant-tabs-ink-bar {
+                background-color: transparent !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .add-website-table {
+    .ant-table {
+      .ant-table-container {
+        .ant-table-content {
+          .ant-table-thead > tr > th {
+                display: table-cell;
+          }
+        }
+      }
+  }
+  }
+}

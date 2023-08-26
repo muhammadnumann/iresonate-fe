@@ -1,0 +1,27 @@
+.ws-date-dropdown {
+    
+    @media screen and (min-width: 480px) and (max-width: 576px)  {
+        left: 52px !important;
+    }
+    @media  screen and (max-width: 480px) {
+        left: 20px !important;
+    }
+    .ant-picker-range-wrapper {
+        .ant-picker-range-arrow {
+            display: none;
+        }
+        .ant-picker-panel-container {
+            vertical-align:middle;
+            .ant-picker-panels {
+                @media (max-width: 768px) {
+                    flex-wrap: wrap;
+                    width: fit-content;
+                    display: flex;
+                    max-width: fit-content;
+                    max-height: 280px;
+                    overflow-y: auto;
+                }
+            }
+        }
+    }
+}

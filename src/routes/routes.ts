@@ -1,0 +1,56 @@
+const routPath = {
+  newDesign: '/newDesign',
+  rootRoute: '/',
+  UpdatePassword: '/updatepassword',
+  DashboardScreen: '/dashboard',
+  // Donor
+  donorLogin: '/donor',
+  donorDashboard:'/donor/dashboard',
+  donorTransactions: '/donor/transactions',
+  donorProfile: '/donor/profile',
+  donorRegistration: '/donor/registration',
+  mainScreenDonorLogin: 'donor',
+  // Admin
+  adminLogin: '/admin',
+  adminDashboard:'/admin/dashboard',
+  AuditLogList: '/admin/audit-log',
+  webHostList: '/admin/web-host-list',
+  webHostEdit: '/admin/web-host-list/edit',
+  DonorList: '/admin/donor-list',
+  DonorAdd: '/admin/donor-list/add',
+  DonorEdit: '/admin/donor-list/edit',
+  AdminUsers: '/admin/admin-list',
+  ContentProvider: '/admin/content-provider-list',
+  ContentProviderView: '/admin/content-provider-list/view',
+  AdminProfile: '/admin/profile',
+  AdminTransactions: '/admin/transactions',
+  Instructions:'/admin/instructions',
+  //WebHost
+  webHostLogin: '/web-host',
+  webHostDashboard:'/web-host/dashboard',
+  webHostTransactions: '/web-host/transactions',
+  webHostProfile: '/web-host/profile',
+  webHostContentProvider: '/web-host/content-provider-list',
+  webHostContentProviderEdit: '/web-host/content-provider-list/edit',
+  webHostRegistrations: '/web-host/registration',
+  webHostInstructions:'/web-host/instructions',
+  //Content Writer
+  contentProviderLogin: '/content-provider',
+  contentProviderDashboard:'/content-provider/dashboard',
+  contentProviderTransactions: '/content-provider/transactions',
+  contentProviderWebHost: '/content-provider/web-host-list',
+  contentProviderProfile: '/content-provider/profile',
+  contentProviderRegistrations: '/content-provider/registration',
+  // Payment
+  Payment: '/payment',
+  // successMessage
+  successMessage: '/payment/success',
+  thankyouScreen: '/thankYou',
+  thankyouScreenCP: '/thankYouCP',
+  thankyouScreenDonor: '/thankYouDonor',
+  compareViewPathname: '/admin/content-writer-list/view',
+  userCheckout:'/user-checkout',
+  privacyPolicy: '/privacy-policy',
+  test:"/test"
+}
+export default routPath

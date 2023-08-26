@@ -1,0 +1,36 @@
+@import '../../../assets/less/_variables.less';
+.number-card-container {
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);;
+    background: @white;
+    border-radius: 2px;
+    padding: 17px;
+    display: flex;
+    .number-card-icon {
+      height: 60px;
+      width: 60px;
+      border-radius: 0.25rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .anticon {
+        font-size: 25px;
+        svg {
+          fill: @white;
+        }
+      }
+    }
+    .number-card-text-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0 10px;
+      .number-card-title {
+          font-size: 0.875rem;
+          font-weight: normal;
+      }
+      .number-card-count {
+          font-weight: 900;
+      }
+    }
+  }
+  

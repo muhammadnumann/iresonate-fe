@@ -1,0 +1,7 @@
+overwrite: true
+schema: "https://dev-gify-api.webelight.co.in/graphql"
+generates:
+  src/typeGenerated.ts:
+    plugins:
+      - "typescript"
+      - "typescript-operations"

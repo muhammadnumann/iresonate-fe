@@ -1,0 +1,50 @@
+@import '../../../../../assets/less/_variables.less';
+@import '../../../../../assets/less/_mixins.less';
+
+.main-details {
+  position: relative;
+  opacity: 1;
+  margin-bottom: 3rem;
+  .content-details-form {
+    .details-title {
+      .form-main-details-title ;
+    }
+    .content {
+      .title-content;
+    }
+    .main-form {
+      .ant-row {
+        .ant-col {
+            padding: 0 15px;
+        }
+      }
+      .form-label {
+        .form-input-label;
+      }
+      .ws-input,.ws-password {
+        margin-bottom:5px;
+        .form-control {
+          .register-form-input;
+              input {
+            color: @dark-grayish-blue;
+            font-size: 0.75rem; 
+            letter-spacing: 1px;
+            &::placeholder {
+              color: @dark-grayish-blue; 
+            }
+          }
+        }
+        .ws-error {
+          div {
+            margin-top: 2px !important;
+          }
+        }
+      }
+      .form-password {
+        .ws-password {
+          height: unset;
+        }
+      }
+    }
+  }
+}

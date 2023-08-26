@@ -1,0 +1,82 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -15,11 +15,25 @@
+   <component name="Git.Settings">
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+-        <entry key="$PROJECT_DIR$" value="dashboard" />
++        <entry key="$PROJECT_DIR$" value="build" />
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
++  <component name="HighlightingSettingsPerFile">
++    <setting file="file://$PROJECT_DIR$/.env" root0="FORCE_HIGHLIGHTING" />
++    <setting file="file://$PROJECT_DIR$/Jenkinsfile" root0="FORCE_HIGHLIGHTING" />
++    <setting file="file://$PROJECT_DIR$/codegen.dev.admin.yml" root0="FORCE_HIGHLIGHTING" />
++    <setting file="file://$PROJECT_DIR$/deploy_develop/after_update.sh" root0="FORCE_HIGHLIGHTING" />
++    <setting file="file://$PROJECT_DIR$/deploy_develop/before_update.sh" root0="FORCE_HIGHLIGHTING" />
++    <setting file="file://$PROJECT_DIR$/deploy_develop/local_update.sh" root0="FORCE_HIGHLIGHTING" />
++    <setting file="file://$PROJECT_DIR$/ecosystem.dev.config.js" root0="FORCE_HIGHLIGHTING" />
++    <setting file="file://$PROJECT_DIR$/next.config.js" root0="FORCE_HIGHLIGHTING" />
++    <setting file="file://$PROJECT_DIR$/package.json" root0="FORCE_HIGHLIGHTING" />
++    <setting file="file://$PROJECT_DIR$/pages/_app.tsx" root0="FORCE_HIGHLIGHTING" />
++    <setting file="file://$PROJECT_DIR$/src/form/admin/webHostList-edit-form/edit.tsx" root0="FORCE_HIGHLIGHTING" />
++    <setting file="file://$PROJECT_DIR$/src/form/checkoutForm.tsx" root0="FORCE_HIGHLIGHTING" />
++  </component>
+   <component name="MarkdownSettingsMigration">
+     <option name="stateVersion" value="1" />
+   </component>
+@@ -28,22 +42,22 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+-    &quot;last_opened_file_path&quot;: &quot;D:/irosenate/iresonate/pages/content-provider&quot;,
+-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.typescriptcompiler&quot;,
+-    &quot;ts.external.directory.path&quot;: &quot;D:\\irosenate\\iresonate\\node_modules\\typescript\\lib&quot;,
+-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "RunOnceActivity.OpenProjectViewOnStart": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "WebServerToolWindowFactoryState": "false",
++    "last_opened_file_path": "D:/irosenate/iresonate/pages/content-provider",
++    "node.js.detected.package.eslint": "true",
++    "node.js.detected.package.tslint": "true",
++    "node.js.selected.package.eslint": "(autodetect)",
++    "node.js.selected.package.tslint": "(autodetect)",
++    "nodejs_package_manager_path": "yarn",
++    "settings.editor.selected.configurable": "settings.typescriptcompiler",
++    "ts.external.directory.path": "/Users/mac/Desktop/All_Projects/iresonate/node_modules/typescript/lib",
++    "vue.rearranger.settings.migration": "true"
+   }
+-}</component>
++}]]></component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
+       <recent name="D:\irosenate\iresonate\pages\content-provider" />
+@@ -98,7 +112,7 @@
+     <breakpoint-manager>
+       <breakpoints>
+         <line-breakpoint enabled="true" type="javascript">
+-          <url>file://$PROJECT_DIR$/src/utils/formikValidation.ts</url>
++          <url>file://$PROJECT_DIR$/../../All Projects/iresonate/src/utils/formikValidation.ts</url>
+           <line>282</line>
+           <option name="timeStamp" value="1" />
+         </line-breakpoint>

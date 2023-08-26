@@ -1,0 +1,92 @@
+@import "../../../../assets/less/_variables.less";
+@import "../../../../assets/less/_mixins.less";
+
+.terms-conditions-main-details {
+  margin-bottom: 3rem;
+  .terms-conditions-main-details-form {
+    .details-title {
+      .form-main-details-title;
+    }
+    .ant-row {
+      .ant-col {
+        .see-terms-btn {
+          width: 100%;
+          background: #cc3846;
+          border-radius: 5px;
+          font-weight: bold;
+          font-size: 12px;
+          letter-spacing: 1px;
+          border: 0 none;
+          padding: 0.5rem 1rem;
+          line-height: inherit;
+          margin-top: 4px;
+        }
+      }
+    }
+    .content {
+      .title-content;
+    }
+    .terms-conditions-form {
+      .donor-title {
+        padding: 0 15px;
+        color: @light-red;
+        font-weight: 600;
+        font-size: 1.25rem;
+        margin-bottom: 0.5rem;
+        line-height: 1.2;
+      }
+      .terms-conditions-content {
+        font-size: 0.85rem;
+        padding: 0 15px;
+      }
+      .terms-conditions-checkbox,
+      .ant-checkbox-group {
+        padding: 0 15px;
+        &:hover {
+          .ant-checkbox-wrapper {
+            .ant-checkbox {
+              .ant-checkbox-inner {
+                background: @light-red;
+              }
+            }
+          }
+        }
+        label {
+          font-size: 0.8rem;
+          font-weight: 500;
+          color: @black;
+          display: flex;
+          align-items: center;
+        }
+        .ant-checkbox {
+          top: unset;
+          .ant-checkbox-inner {
+            width: 20px;
+            height: 20px;
+            border: 1px solid @light-red;
+            border-radius: 5px;
+            background: @white;
+          }
+        }
+        .ant-checkbox-wrapper-checked {
+          .ant-checkbox-inner {
+            background-color: @light-red;
+            border: 1px solid @light-red;
+            &:after {
+              transform: rotate(45deg) scale(1) translate(-35%, -70%);
+            }
+          }
+          .ant-checkbox-checked {
+            &:after {
+              border: 1px solid @light-red !important;
+              border-radius: 5px;
+            }
+          }
+        }
+      }
+      .ws-error {
+        padding: 0 15px;
+      }
+    }
+  }
+}

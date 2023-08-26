@@ -1,0 +1,67 @@
+@import '../assets/less/_variables.less';
+
+.page-not-found-container {
+    min-height: 100vh;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    background-color: @lightgray;
+    justify-content: center;
+    .error-main-div {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        width: 100%;
+        max-width: 1000px;
+        .ant-card-body {
+            text-align: center;
+        }
+        .error-title {
+            font-size: 1.9rem;
+            color: @primary;
+            line-height: normal;
+            &:after {
+                content: "\2022";
+                color: @primary;
+                padding-left: 10px;
+            }
+            &:before {
+                content: "\2022";
+                color: @primary;
+                padding-right: 10px;
+            }
+        }
+        .logo-title {
+            font-size: 1.5rem;
+            color: @black;
+            font-weight: 900;
+            line-height: normal;
+            margin-bottom: 20px;
+        }
+        .title-404 {
+            font-size: 8rem;
+            color: @primary;
+            font-weight: 900;
+            border-bottom: 3px solid @primary;
+            line-height: normal;
+        }
+        .page-not-found-title {
+            margin-top: 10px;
+            font-size: 1.8rem;
+            color: @primary;
+            font-weight: bold;
+            line-height: normal;
+        }
+        .title-message {
+            font-size: 1.2rem;
+            margin-top: 20px;
+            color:#958f8f;
+            .home-title {
+                color: @primary;
+                cursor: pointer;
+                &:hover {
+                    color:@black;
+                }
+            }
+        }
+    }
+}

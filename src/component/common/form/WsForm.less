@@ -1,0 +1,16 @@
+.ws-form {
+  .ant-form-item-label
+    > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+    display: none !important;
+  }
+  .ant-form-item-label
+    > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::after {
+    display: inline-block;
+    color: #ff4d4f;
+    font-size: 14px;
+    font-family: SimSun, sans-serif;
+    line-height: 1;
+    content: "*";
+  }
+  
+}

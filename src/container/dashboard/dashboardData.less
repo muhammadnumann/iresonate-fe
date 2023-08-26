@@ -1,0 +1,60 @@
+@import '../../../assets/less/_variables.less';
+
+.dashboard-data {
+  display: block;
+  max-height: 246px;
+  .dashboard-title {
+    font-weight: 900;
+    letter-spacing: calc(0.6px - 0.05em);
+  } 
+
+  .meta-title {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0px;
+    @media (max-width: 480px) {
+      display: grid;
+    }
+    .ws-title {
+      width: 100%;
+    }
+    .monthly-select-main {
+      display: flex;
+      justify-content: flex-end;
+      width: 100%;
+      @media (max-width: 480px) {
+        display: grid;
+        justify-content: flex-start;
+        .ant-space {
+        display: grid;
+        margin: 0.8rem 0;
+        }
+      }
+    }
+  }
+  .dashboard-count {
+    width: 100%;
+    flex-wrap: wrap;
+    .dashboard-count-row {
+      @media (max-width: 576px) {
+        justify-content: center;
+      }
+    }
+  }
+}
+
+.dashboard-card {
+  padding-bottom:25px;
+  .ant-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+  }
+  .dashboard-card-2 {
+    margin-top: 20px;
+  }
+}
+.website-url-text {
+color:@primary;
+cursor: pointer;
+width: fit-content;
+}

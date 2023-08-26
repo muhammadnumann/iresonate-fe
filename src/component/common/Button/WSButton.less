@@ -1,0 +1,48 @@
+@import '../../../../assets/less/_variables.less';
+// WIP
+.ant-btn {
+    line-height: normal;
+    font-size: 14px;
+    border-radius: 1px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    max-width: 250px;
+  }
+  .ant-btn-primary {
+    color: @white;
+    background: @primary;
+    border: none;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+    -webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+    &:active,
+    &:focus {
+      background: @primary;
+    }
+   
+  }
+  // Feature Use 
+  .ant-btn-default {
+    color:  @primary;
+    border-color: @primary;
+    &:active,
+    &:hover {
+      color: @primary;
+      border-color: @primary;
+    }
+  }
+  .ant-btn-link {
+    color: @black;
+    display: flex;
+    .ant-image {
+      margin: 0 0 0 calc(0.5rem + 0.5vw);
+    }
+    &:active,
+    &:hover {
+      color: @primary;
+      opacity: 1;
+    }
+  }
+  

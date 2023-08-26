@@ -1,0 +1,31 @@
+.sub-header {
+  margin: 0 0 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  .input-group {
+    width: max-content;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .sub-header {
+    flex-direction: column;
+    align-items: flex-start;
+    .ws-title.ant-typography {
+      margin-bottom: 1rem;
+    }
+    .ant-space {
+      flex-wrap: wrap;
+    }
+    .ant-picker {
+      margin-top: 1rem;
+    }
+    .ant-btn {
+      margin-top: 1rem;
+    }
+  }
+}

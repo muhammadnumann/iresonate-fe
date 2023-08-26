@@ -1,0 +1,168 @@
+@import '../../assets/less/_variables.less';
+.payment-options-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: @lightgray;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 1.25rem;
+}
+.payment-form-section {
+  width: 100%;
+  
+  .payment-form {
+    padding: 0 0.8rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    max-width:700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: @white;
+    .user-donation-form {
+      .ws-input {
+        height: 65px;
+        .ant-input {
+          padding: 7px 11px;
+          border-radius: 10px;
+        }
+      }
+      .input-filed-col {
+        margin-top: 22px;
+      }
+      .register-as-donor {
+        margin-top: 0.5rem;
+          &:hover {
+            .ant-checkbox-inner {
+              border-color: @light-red;
+            }
+          }
+          .ant-checkbox-inner {
+            border-color: @light-red;
+          }
+          .ant-checkbox + span {
+            color: @light-red;
+          }
+
+          .ant-checkbox-checked .ant-checkbox-inner {
+            background-color: @light-red;
+            border-color: @light-red;
+          }
+        }
+    }
+    .make-donation-form {
+      margin-top: 1.5rem;
+      border-radius: 5px;
+      .ant-card-body {
+        background-color: #f5f5f5;
+        padding: 20px;
+        .donation-amount {
+          color: @text-color;
+          font-weight: 500;
+        }
+        .donation-amount-container {
+          display: grid;
+          grid-template-columns: repeat(5, 1fr);
+          margin-bottom: 1rem;
+          margin-top: 0.5rem;
+          gap: 9px;
+          .donation-amount-radio {
+            background-color: @white;
+            border-radius: 10px;
+            .ant-radio-wrapper {
+              border-radius: 10px;
+              margin-right: unset;
+              padding: 10px 17px;
+            }
+            .ant-radio-inner {
+              border-color: @text-color;
+              background-color: unset;
+              width: 20px;
+              height: 20px;
+            }
+            .ant-radio-wrapper-checked {
+              background-color: @light-red;
+              span.ant-radio + * {
+                color: @white;
+              }
+              .ant-radio-inner {
+                border-color: @white;
+                &:after {
+                  background-color: @white;
+                  width: 12px;
+                  height: 12px;
+                }
+              }
+            }
+          }
+        }
+        .other-donation-col {
+          .ws-input {
+            height: 65px;
+          }
+        }
+        .minimum-input {
+          border-radius: 10px;
+          background-color: #ebebeb;
+          padding: 7px 11px;
+        }
+        .select-donation-amount {
+          width: 100%;
+          .ant-select-selector {
+            height: 100%;
+            padding: 4px 11px;
+            align-items: center;
+          }
+        }
+        .StripeElement {
+          display: block;
+          min-width: 200px;
+          padding: 10px 14px;
+          font-size: 1em;
+          font-family: 'Source Code Pro', monospace;
+          border: 0;
+          outline: 0;
+          background: #ebebeb;
+          border-radius: 10px;
+          color: @text-color;
+        }
+      }
+    }
+    .make-payment-btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 1.5rem;
+      .ant-btn {
+        padding: 22px 17px;
+        border-radius: 10px;
+        background-color: #37a869;
+      }
+      .ant-btn-primary[disabled]{
+        color: @white;
+      }
+    }
+    .iresonate-logo-section {
+      margin-top: 1rem;
+      display: flex;
+      justify-content: center;
+      padding-bottom: 1.5rem;
+      align-items: center;
+      .ant-image {
+        .iresonate-logo {
+          width: 100%;
+          max-width: 150px;
+          border-right: 2px solid #ebebeb;
+          padding-right: 5px;
+        }
+        .strip-logo {
+          width: 100%;
+          max-width: 35px;
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+}

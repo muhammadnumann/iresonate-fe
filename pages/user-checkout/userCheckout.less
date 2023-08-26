@@ -1,0 +1,68 @@
+@import '../../assets/less/_variables.less';
+
+.payment-conformation-form {
+  padding: 1.875rem 1.25rem;
+  min-height: 100vh;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  background-color: @lightgray;
+  justify-content: center;
+  .conformation-button {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 100%;
+    max-width: 700px;
+    border-radius: 10px;
+    border:unset;
+    .ant-card-head {
+      background-color: @light-red;
+      border-radius: 10px 10px 0 0;
+      line-height: 1;
+      .ant-card-head-wrapper {
+        .ant-card-head-title {
+          text-align: center;
+          font-size:1.5rem;
+          color:@white;
+          font-weight: bold;
+        }
+      }
+    }
+    .ant-card-body {
+      .entrepreneur-tab-container {
+        .ant-tabs-nav {
+          &::before {
+            border-bottom: unset;
+          }
+          .ant-tabs-nav-wrap {
+            margin-bottom: 0.5rem;
+            .ant-tabs-tab  {
+              padding: 12px 50px;
+              background-color: @lightgray;
+              border-radius: 30px;
+              color:@text-color ;
+              opacity: 0.8;
+              &:hover{
+                color:@text-color ;
+              }
+            }
+            .ant-tabs-tab + .ant-tabs-tab {
+              margin: 0 0 0 -32px;
+          }
+            .ant-tabs-tab-active {
+              background-color: @primary;
+              opacity: 1;
+              z-index: 1;
+              .ant-tabs-tab-btn {
+                color: @white;
+              }
+            }
+            .ant-tabs-ink-bar {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,108 @@
+@import "../../../../../../assets/less/_variables.less";
+@import "../../../../../../assets/less/_mixins.less";
+.content-provider-main-details {
+  position: relative;
+  opacity: 1;
+  .details-title {
+    .form-main-details-title;
+  }
+  .content {
+    .title-content;
+  }
+  .content-provider-main-form {
+    .ant-row {
+      .ant-col {
+        padding: 0 15px;
+        .title-select-main {
+          display: flex;
+          justify-content: flex-end;
+          width: 100%;
+          margin-bottom: 5px;
+          height: 54px;
+          margin-top: 2px;
+
+          .ant-select {
+            width: 100%;
+            .ant-select-selector {
+              height: 36px !important;
+              padding: 0.375rem 1.75rem 0.375rem 0.75rem;
+              font-size: 1rem;
+              font-weight: 400;
+              line-height: 1.5;
+              color: #212529;
+              vertical-align: middle;
+              background-color: #fff;
+              border: 1px solid #ced4da;
+              border-radius: 0.25rem;
+              .ant-select-selection-item,
+              .ant-select-single
+                .ant-select-selector
+                .ant-select-selection-placeholder {
+                line-height: 23px !important;
+                color: #495057;
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+              }
+            }
+            .ant-select-arrow {
+              top: 35% !important;
+            }
+          }
+        }
+      }
+    }
+    .form-label {
+      .form-input-label;
+      width: unset;
+    }
+    .mailing-address-label {
+      margin-right: 1.15rem;
+    }
+    .same-as-mailing-address-checkbox {
+      .ant-checkbox-wrapper {
+        font-size: 0.8rem;
+        font-weight: 500;
+        color: @black;
+        margin-bottom: 0.5rem;
+        line-height: 1.5;
+        &:hover {
+          .ant-checkbox {
+            .ant-checkbox-inner {
+              background: @light-red;
+            }
+          }
+        }
+      }
+      .ant-checkbox-inner {
+        width: 15px;
+        height: 15px;
+        border: 1px solid @light-red;
+        border-radius: 4px;
+        background: @white;
+      }
+      .ant-checkbox-wrapper-checked {
+        .ant-checkbox-inner {
+          background-color: @light-red;
+          border: 1px solid @light-red;
+        }
+        .ant-checkbox-checked {
+          &:after {
+            border: 1px solid @light-red !important;
+            border-radius: 5px;
+          }
+        }
+      }
+    }
+    .ws-input {
+      margin-bottom: 5px;
+      .form-control {
+        .register-form-input;
+      }
+      .ws-error {
+        div {
+          margin-top: 2px !important;
+        }
+      }
+    }
+  }
+}

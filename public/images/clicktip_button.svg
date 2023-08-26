@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="125" height="124" viewBox="0 0 125 124">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#dfdfdf"/>
+      <stop offset="1" stop-color="#b5b5b5"/>
+    </linearGradient>
+    <filter id="Rectangle_5947" x="0" y="0" width="125" height="124" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.18"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" x1="-0.041" y1="0.595" x2="1.084" y2="0.616" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e0e0e0"/>
+      <stop offset="0.559" stop-color="#ececec"/>
+      <stop offset="1" stop-color="#dfdfdf"/>
+    </linearGradient>
+    <filter id="Rectangle_10" x="10" y="6" width="105" height="102" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur-2"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="clicktip_button" transform="translate(-202 -569)">
+    <g transform="matrix(1, 0, 0, 1, 202, 569)" filter="url(#Rectangle_5947)">
+      <rect id="Rectangle_5947-2" data-name="Rectangle 5947" width="107" height="106" rx="8" transform="translate(9 3)" fill="url(#linear-gradient)"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 202, 569)" filter="url(#Rectangle_10)">
+      <g id="Rectangle_10-2" data-name="Rectangle 10" transform="translate(16 11)" stroke="#f8f8f8" stroke-width="1" fill="url(#linear-gradient-2)">
+        <rect width="93" height="90" rx="6" stroke="none"/>
+        <rect x="0.5" y="0.5" width="92" height="89" rx="5.5" fill="none"/>
+      </g>
+    </g>
+    <text id="_" data-name="$" transform="translate(249 646)" fill="#1a1818" font-size="58" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">$</tspan></text>
+  </g>
+</svg>

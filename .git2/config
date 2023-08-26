@@ -1,0 +1,22 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = git@github-iro:bilaldev001/iresonate.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
+[branch "dashboard"]
+	remote = origin
+	merge = refs/heads/dashboard
+[user]
+	email = mbilal.dev001@gmail.com
+	name = Muhammad Bilal
+[branch "build-fixes"]
+	remote = origin
+	merge = refs/heads/build-fixes

@@ -1,0 +1,7 @@
+overwrite: true
+schema: "https://iresonate.virtual-node.com/api/graphql"
+generates:
+  src/typeGenerated.ts:
+    plugins:
+      - "typescript"
+      - "typescript-operations"

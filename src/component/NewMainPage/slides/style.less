@@ -1,0 +1,144 @@
+@import "../../../../assets/less/_variables.less";
+
+@media screen and (max-width: 567px) {
+  .home-slides .slick-dots {
+    left: unset;
+    right: 30% !important;
+    bottom: 30px !important;
+  }
+}
+.home-slides {
+  width: 100%;
+  position: relative;
+
+  .slidestyle {
+    padding-top: 60px;
+    padding-bottom: 100px;
+    height: auto;
+
+    .step-title,
+    .step-desc {
+      color: @white;
+    }
+
+    .step-title {
+      font-style: normal;
+      font-weight: 900;
+      font-size: 40px;
+      line-height: 100%;
+    }
+
+    .step-desc {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+    }
+  }
+
+  .slick-prev,
+  .slick-next {
+    width: 32px;
+    height: 32px;
+    z-index: 99;
+    border-radius: 50%;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    top: unset;
+    bottom: 150px;
+  }
+
+  .slick-prev:hover {
+    background: #ca3845;
+  }
+
+  .slick-prev {
+    background: #ca3845;
+    left: calc(45% - 25px);
+  }
+
+  .slick-next {
+    left: calc(45% + 20px);
+    background: #adadad;
+  }
+
+  .slick-next:hover {
+    background: #adadad;
+  }
+
+  .slick-dots {
+    position: absolute;
+    bottom: 100px;
+    left: -8%;
+  }
+
+  .ant-carousel .slick-dots li {
+    width: 10px;
+  }
+
+  .ant-carousel .slick-dots li button {
+    background-color: #adadad;
+    opacity: 1;
+  }
+
+  .ant-carousel .slick-dots li.slick-active button {
+    background-color: #ca3845 !important;
+    opacity: 1;
+  }
+
+  .slick-prev::before {
+    content: "";
+  }
+
+  .slick-next::before {
+    content: "";
+  }
+
+  .slick-dots li button {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+  }
+
+  .slick-dots li.slick-active {
+    width: 10px;
+  }
+
+  @media screen and (max-width: 992px) {
+    .slick-next {
+      right: 20px !important;
+      left: unset;
+    }
+
+    .slick-prev {
+      right: 65px !important;
+      left: unset;
+    }
+    .slick-dots {
+      left: unset;
+      right: -71px;
+    }
+  }
+
+  @media screen and (max-width: 786px) {
+    .slick-arrow {
+      display: none !important;
+    }
+    .slick-dots {
+      left: unset;
+      right: 30%;
+      bottom: 320px;
+    }
+  }
+}
+
+@keyframes slideEllipsebounceup {
+  from {
+    top: 50px;
+  }
+
+  to {
+    top: 12px;
+  }
+}

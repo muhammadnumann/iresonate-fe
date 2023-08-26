@@ -1,0 +1,7 @@
+overwrite: true
+schema: "https://apiresonate.virtual-node.com/graphql/admin"
+generates:
+  src/typeGeneratedAdmin.ts:
+    plugins:
+      - "typescript"
+      - "typescript-operations"

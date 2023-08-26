@@ -1,0 +1,7 @@
+overwrite: true
+schema: "https://dev-gify-api.webelight.co.in/graphql/admin"
+generates:
+  src/typeGeneratedAdmin.ts:
+    plugins:
+      - "typescript"
+      - "typescript-operations"

@@ -1,0 +1,247 @@
+@import "~antd/es/style/themes/default.less";
+@import "./_variables.less";
+@import "./_mixins.less";
+
+:root {
+  --primary: @primary;
+  --dark: @black;
+  --white: @white;
+}
+//body, h1, h2, h3, h4, h5, h6, p, a, span, div {
+//  font-family: 'DM Sans', sans-serif !important;
+//}
+.thank-you-container {
+  margin-top: 10% !important;
+}
+body {
+  background: #ffffff;
+  // backdrop-filter: blur(55.7248px);
+}
+.text-right {
+  text-align: right;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.ml-auto,
+.mx-auto {
+  margin-left: auto !important;
+}
+.mr-auto,
+.mx-auto {
+  margin-right: auto !important;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.text-center {
+  text-align: center;
+}
+.d-none {
+  display: none !important;
+}
+.mt-0 {
+  margin-top: 0 !important;
+}
+.mt-1 {
+  margin-top: 1rem !important;
+}
+.mt-3 {
+  margin-top: 3rem;
+}
+.mt-5 {
+  margin-top: 5rem;
+}
+.mt-4 {
+  margin-top: 4rem;
+}
+.mb-1 {
+  margin-bottom: 1rem !important;
+}
+.mb-2 {
+  margin-bottom: 2rem !important;
+}
+.mb-3 {
+  margin-bottom: 3rem !important;
+}
+.m-0 {
+  margin: 0px;
+}
+.mr-1 {
+  margin-right: 1rem;
+}
+.d-flex {
+  display: flex !important;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.justify-content-start {
+  justify-content: flex-start;
+}
+.justify-content-end {
+  justify-content: flex-end;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+.justify-content-around {
+  justify-content: space-around;
+}
+.justify-content-evenly {
+  justify-content: space-evenly;
+}
+.align-items-center {
+  align-items: center;
+}
+.align-items-start {
+  align-items: flex-start;
+}
+.align-items-end {
+  align-items: flex-end;
+}
+.align-items-baseline {
+  align-items: baseline;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex-row {
+  flex-direction: row;
+}
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+.flex-column {
+  flex-direction: column;
+}
+.flex-column-reverse {
+  flex-direction: column-reverse;
+}
+.position-relative {
+  position: relative;
+}
+.position-absolute {
+  position: absolute;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.d-none {
+  display: none !important;
+}
+.w-100 {
+  width: 100%;
+}
+.h-100 {
+  height: 100%;
+}
+.h-100vh {
+  height: 100vh;
+}
+
+.font-weight-500 {
+  font-weight: 500 !important;
+}
+
+.font-weight-600 {
+  font-weight: 600 !important;
+}
+@media (max-width: 1200px) {
+  .main-transactions-table {
+    .ant-spin-nested-loading {
+      .ant-spin-container {
+        .ant-table {
+          .ant-table-container {
+            width: fit-content;
+            .ant-table-content {
+              .ant-table-thead > tr {
+                .transaction-column-fixed {
+                  position: unset !important;
+                  left: unset !important;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+// all instructions page
+.instructions-section {
+  .click-tip-logo {
+    display: grid;
+    place-items: center;
+  }
+  .instructions-title {
+    display: grid;
+    place-items: center;
+    font-size: 1.75rem;
+    margin: 1rem 0;
+    color: @text-color;
+  }
+  .thankyou-title {
+    margin-bottom: 1rem;
+    font-style: italic;
+  }
+}
+.instructions-container {
+  .title {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+  }
+  .second-title {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    margin-left: 30px;
+  }
+  .instructions-ul {
+    font-size: 1.1rem;
+    list-style: none;
+    margin: 0;
+    padding-left: 30px;
+    line-height: 2;
+  }
+  .title-bg-color {
+    background-color: @primary;
+    width: fit-content;
+    margin-bottom: 10px;
+    color: @white;
+    font-size: 1.1rem;
+    &::selection {
+      background-color: @secondary;
+    }
+  }
+  .title-bg-color-new {
+    background-color: @primary;
+    width: fit-content;
+    margin-bottom: 10px;
+    color: @white;
+    font-size: 1.2rem;
+    line-height: 2;
+    margin-left: 30px;
+    &::selection {
+      background-color: @secondary;
+    }
+  }
+  .do-not-forget {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    margin-left: 30px;
+    text-decoration: underline;
+    font-style: italic;
+  }
+}
+
+// test page
+.web-host-with-cp {
+  padding: 50px;
+}

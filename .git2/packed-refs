@@ -1,0 +1,12 @@
+# pack-refs with: peeled fully-peeled sorted 
+9b3c67a81059c355af59b1a6c709a8a2da145664 refs/heads/build-fixes
+422dbb76d8b1c3697d015e6ab5b79f3bcd994c96 refs/heads/dashboard
+d26c21de7da1f355830fa09e8358cb95c93e5450 refs/heads/main
+2d143db43e35519353eb76e9a9f651ab9f4520e8 refs/remotes/origin/build-fixes
+422dbb76d8b1c3697d015e6ab5b79f3bcd994c96 refs/remotes/origin/dashboard
+1bf92fbc44044a1bea9a7e4aab155286001fdb26 refs/remotes/origin/jenkin-develope
+8ec9f6d18448a6b50c39611c28b281ec2293f9b5 refs/remotes/origin/main
+11e756a54deb8525be457060ca508c777c4f93b7 refs/remotes/origin/master
+9165ca385b25961e925a1b76383017eff8e8bcb3 refs/remotes/origin/production
+d41a19f34471f1d202416593f0dd83283dea06be refs/remotes/origin/production-patch-40268
+5a7412ca488d7b2f734d1bbef734a416dedb27c4 refs/remotes/origin/updated-form

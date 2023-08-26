@@ -1,0 +1,60 @@
+.ws-table {
+  // .ant-table-cell{
+  //   font-weight: bold;
+  // }
+  .ant-spin-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .ant-pagination {
+      .ant-pagination-options {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 0px;
+        margin-left: 0px;
+      }
+      &.ant-table-pagination {
+        @media screen and (max-width: 576px) {
+          flex-wrap: wrap;
+          justify-content: flex-start;
+          display: inline;
+          li {
+            margin-bottom: 10px;
+            margin-left: 0px;
+          }
+        }
+
+      }
+    }
+  }
+  .ant-table {
+    &-thead > tr {
+      > th {
+        font-weight: bold;
+      }
+    }
+  }
+  .ant-table-body {
+    // !important is required for override the default inline styles
+    overflow-y: scroll !important;
+    max-height: calc(100vh - 293px) !important;
+  }
+
+  @media (max-width: 1600px) {
+    .ant-table {
+      width: 100%;
+      overflow-x: auto;
+      &-tbody > tr {
+        > th,
+        > td {
+          white-space: pre;
+          > span {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+}

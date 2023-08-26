@@ -1,0 +1,50 @@
+@import '../../../assets/less/_variables.less';
+
+.thank-you-container {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position:relative;
+    min-height: calc(100vh - 395px);
+    .thank-you-card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        width: 100%;
+        max-width: 1045px;
+        .ant-card-body {
+            text-align: center;
+        }
+        .logo-title {
+            font-size: 1.5rem;
+            color: @black;
+            font-weight: 900;
+            line-height: normal;
+            margin-bottom: 20px;
+        }
+        .thank-you-title{
+            font-size: 4.375rem;
+            color: @primary;
+            font-weight: 900;
+            border-bottom: 3px solid @primary;
+            line-height: normal;
+        }
+        .success-message-title {
+          font-size: 1.2rem;
+          color: @primary;
+          line-height: normal;
+          margin-top: 3rem;
+          .checkOutlined-icon {
+              margin-right: 5px;
+              svg {
+                  fill: green;
+              }
+          }
+          .sign-in-span {
+              margin-left:5px;
+              color: @gray-test;
+              cursor: pointer;
+          }
+      }
+    }
+}

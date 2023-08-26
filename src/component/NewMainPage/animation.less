@@ -1,0 +1,131 @@
+@keyframes bounce {
+  from {
+    top: 5px;
+  }
+
+  to {
+    top: -5px;
+  }
+}
+
+.animation {
+  position: relative;
+  animation: bounce 1s linear 2s infinite alternate;
+}
+
+.animation-2 {
+  position: relative;
+  animation: bounce2 1.5s linear 1.5s infinite forwards;
+  animation-timing-function: ease-in-out;
+}
+.animation-3 {
+  position: relative;
+  top: 30px;
+  animation: bounce2 2s linear 1.5s infinite forwards;
+  animation-timing-function: ease-in-out;
+}
+
+.anim-container-1,
+.anim-container-2,
+.anim-container-3,
+.anim-container-4,
+.anim-container-5,
+.anim-container-6,
+.anim-container-7,
+.anim-container-8,
+.anim-container-9 {
+  position: absolute;
+}
+
+.anim-container-1 {
+  left: -200px;
+  top: -50px;
+  visibility: hidden;
+
+  @media screen and (min-width: 1200px) {
+    visibility: visible;
+  }
+}
+
+.anim-container-2 {
+  left: -100px;
+  top: -200px;
+  visibility: hidden;
+
+  @media screen and (min-width: 1200px) {
+    visibility: visible;
+  }
+}
+
+.anim-container-3 {
+  left: -203px;
+  top: 42px;
+}
+
+.anim-container-4 {
+  right: -60px;
+  top: -90px;
+}
+
+.anim-container-5 {
+  top: -40px;
+  left: -31px;
+}
+
+.anim-container-6 {
+  left: 0px;
+  top: 105%;
+}
+
+.anim-container-7 {
+  left: 200px;
+  top: -85px;
+  @media screen and (max-width: 567px) {
+    left: 173px;
+    top: -54px;
+    img {
+      width: 50px;
+    }
+  }
+}
+.anim-container-8 {
+  right: -30px;
+  top: -30px;
+}
+.fill-white {
+  path {
+    stroke: white;
+    fill: white;
+  }
+}
+
+.connect-animation {
+  display: block;
+  margin: 0 auto;
+  animation: rotateOnce 0.5s 1;
+}
+
+@keyframes rotateOnce {
+  25% {
+    transform: rotate3d(0);
+  }
+
+  100% {
+    transform: rotate3d(0, 1, 1, 360deg);
+  }
+}
+
+@keyframes bounce2 {
+  0% {
+    top: 10px;
+    opacity: 0;
+  }
+  50% {
+    top: -1px;
+    opacity: 1;
+  }
+  100% {
+    top: -10px;
+    opacity: 0;
+  }
+}

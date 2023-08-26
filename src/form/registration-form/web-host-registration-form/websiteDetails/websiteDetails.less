@@ -1,0 +1,157 @@
+@import '../../../../../assets/less/_variables.less';
+@import '../../../../../assets/less/_mixins.less';
+
+.add-website-main-details {
+  position: relative;
+  opacity: 1;
+  margin-bottom: 3rem;
+  .add-website-main-details-form {
+    .details-title {
+      .form-main-details-title;
+    }
+    .content {
+      font-size: 0.8rem;
+      padding: 0 15px;
+    }
+    .add-website-main-form {
+      .ant-row {
+        .ant-col {
+            padding: 0 15px;
+        }
+      }
+      .form-label {
+        .form-input-label;
+      }
+      .ws-input {
+        margin-bottom:5px;
+        .form-control {
+        .register-form-input;
+        }
+        .website-input {
+          border: none ;
+          padding: 3px 0px;
+          .ant-input-wrapper {
+            .ant-input-group-addon {
+              padding: 5px;
+              border: 1px solid @silver-color;
+              border-bottom-left-radius: 5px;
+              border-top-left-radius:5px;
+              color:@dark-grayish-blue;
+              letter-spacing: 1px;
+              border-right: none;
+            }
+            .ant-input {
+              border: 1px solid @silver-color;
+              padding:5px;
+              border-bottom-right-radius: 5px;
+              border-top-right-radius:5px;
+              letter-spacing: 1px;
+            }
+            
+          }
+        }
+        .ws-error {
+          div {
+            margin-top: 2px !important;
+          }
+        }
+      }
+      .add-website-btn {
+        width: 100%;
+        background: @light-red;
+        border-radius: 5px;
+        font-weight: bold;
+        font-size: 12px;
+        letter-spacing: 1px;
+        border: 0 none;
+        padding: 0.5rem 1rem;
+        line-height: inherit;
+        margin-top: 4px;
+      }
+      .add-website-table {
+        margin: 2rem 0 0rem;
+        .ant-table {
+          &-thead > tr {
+            
+            > th {
+              background: @gainsboro;
+              font-weight: bold;
+              color: @black;
+              font-size: 0.8rem;
+              padding:10px 16px;
+              &:first-child {
+                border-top-left-radius: 5px;
+                border-bottom-left-radius: 5px;
+                text-align: center;
+              }
+              &:last-child {
+                text-align: center;
+                border-top-left-radius: 0px;
+                border-bottom-left-radius: 0px;
+                border-top-right-radius: 5px;
+                border-bottom-right-radius: 5px;
+              }
+            }
+          }
+          &-tbody > tr {
+            > td {
+             color: @cyan-blue;
+             font-size: 0.8rem;
+             background: @light-gray;
+             font-size: 0.8rem;
+            border-bottom: 1px solid @black-Russian;
+             &:hover {
+              text-decoration: underline;
+             }
+              &:last-child,  &:first-child {
+                text-align: center;
+              }
+              .ant-switch {
+                height:100% ;
+                min-height: 22px;
+                min-width: 40px;
+                background-color: @white;
+                border: @hitGray solid 1px;
+                .ant-switch-handle {
+                  width: 17px;
+                  height:16px;
+                  &:before {
+                    background-color: @hitGray;
+                  }
+                }
+              }
+              .ant-switch-checked {
+                background-color: @success-message	;
+                .ant-switch-handle {
+                  &:before {
+                    background-color: @white;
+                  }
+                }
+              }
+            }
+            }
+          }
+        }
+        .websiteArrayError{
+          color:@error-message-color;
+          font-size:0.77875rem;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 992px) {
+    .add-website-main-form {
+      .add-website-table {
+        .ant-table {
+          .ant-table-container {
+            .ant-table-content {
+              .ant-table-thead > tr > th {
+                    display: table-cell;
+              }
+            }
+          }
+      }
+    }
+  }
+}

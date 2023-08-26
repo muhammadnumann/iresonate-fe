@@ -1,0 +1,117 @@
+@import "../../../assets/less/_variables.less";
+
+.contact {
+  .connect-title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 112%;
+    text-align: center;
+    color: @black;
+  }
+
+  .container {
+    .contact-success-message {
+      .success-message {
+        color: @success-message;
+        font-weight: bold;
+        font-size: 1rem;
+      }
+    }
+
+    .ant-row {
+      .ant-col {
+        padding-right: 15px;
+        padding-left: 15px;
+      }
+    }
+  }
+
+  .form-group {
+    margin-bottom: 1rem;
+    .ant-select {
+      width: 100%;
+    }
+    .ws-textarea .ant-input {
+      padding: 0.53rem 0.75rem !important;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      border: 1px solid #adadad;
+      border-radius: 10px;
+      color: #3a3a3a;
+      height: 52px;
+    }
+    .ant-select-selector,
+    .ant-input {
+      padding: 0.53rem 0.75rem;
+      padding-left: 58px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      border: 1px solid #adadad;
+      border-radius: 10px;
+      color: #3a3a3a;
+      height: 52px;
+    }
+    .ws-input {
+      height: unset;
+    }
+
+    position: relative;
+
+    .form-control {
+      padding: 0.53rem 0.75rem;
+      padding-left: 58px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      border: 1px solid #adadad;
+      border-radius: 10px;
+      color: #3a3a3a;
+      height: 52px;
+    }
+    .textarea {
+      height: 123px !important;
+      resize: none;
+    }
+
+    .input-icon {
+      position: absolute;
+      left: 20px;
+      top: 14px;
+      width: 24px;
+      height: 24px;
+      z-index: 99;
+    }
+
+    .ws-textarea {
+      .textarea-label {
+        display: none;
+      }
+
+      .ant-input {
+        height: 90px;
+      }
+    }
+  }
+
+  .submit-btn {
+    margin-left: 1rem;
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 112%;
+    background: @red;
+    border-radius: 10px;
+    border: 0;
+    padding: 16px;
+    width: 160px;
+
+    &:hover {
+      color: @white;
+      background-color: @light-red;
+    }
+  }
+}

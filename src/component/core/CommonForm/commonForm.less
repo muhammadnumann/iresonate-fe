@@ -1,0 +1,60 @@
+@import '../../../../assets/less/_variables.less';
+.common-card-details {
+  box-shadow: 0 1px 4px rgb(0 0 0 / 16%);
+  .ant-card-head {
+    .ant-card-head-wrapper {
+      .ant-card-head-title {
+        font-weight: bold;
+      }
+    }
+  }
+  .ant-card-body {
+    .member-edit-form {
+      .ws-input {
+        height:68px;
+        .input-label {
+          margin-bottom: 0.4rem;
+        }
+        .ant-input[disabled] {
+          color: @black;
+          background-color: @lightgray;
+          &::placeholder {
+            color:@black;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .common-card-details  {
+    .ant-card-head {
+      .ant-card-head-wrapper {
+        display: inline-grid;
+        .ant-card-head-title {
+          padding: 10px 0 0px;
+        }
+        .ant-card-extra {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 480px) {
+  .common-card-details  {
+    .ant-card-head {
+      .ant-card-head-wrapper {
+        .ant-card-extra {
+          .card-button-extra {
+            .ant-space {
+              display: grid;
+              gap: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

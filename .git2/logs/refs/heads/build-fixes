@@ -1,0 +1,23 @@
+0000000000000000000000000000000000000000 5caaaf2f161e74893ce200910697539de34caec5 Muhammad Bilal <mbilal.dev001@gmail.com> 1678802767 +0500	branch: Created from refs/remotes/origin/build-fixes
+5caaaf2f161e74893ce200910697539de34caec5 e207d1c5428a639c337d7a2b93d25f2516310594 Muhammad Bilal <mbilal.dev001@gmail.com> 1678803769 +0500	pull: Fast-forward
+e207d1c5428a639c337d7a2b93d25f2516310594 4130b97bbdaafb3137d194ee8b18517978d477ec Muhammad Bilal <mbilal.dev001@gmail.com> 1678859349 +0500	commit: Add Colors
+4130b97bbdaafb3137d194ee8b18517978d477ec 09d5cd086f2f0a883da60509ec52caaeebbd7ccf Muhammad Bilal <mbilal.dev001@gmail.com> 1678951758 +0500	pull: Fast-forward
+09d5cd086f2f0a883da60509ec52caaeebbd7ccf 8fe0fe44d68b8613687debbeb80d3ee8043e402f Muhammad Bilal <mbilal.dev001@gmail.com> 1678978825 +0500	commit: Fix Ui Issues
+8fe0fe44d68b8613687debbeb80d3ee8043e402f 9161fb6d25935f9a21f0edf33127378a277590d9 Muhammad Bilal <mbilal.dev001@gmail.com> 1679058619 +0500	commit: Update Social Media links
+9161fb6d25935f9a21f0edf33127378a277590d9 1c416413344891ad653139826ca92cf5f8e6705a Muhammad Bilal <mbilal.dev001@gmail.com> 1679058655 +0500	pull: Merge made by the 'ort' strategy.
+1c416413344891ad653139826ca92cf5f8e6705a 4772f8a7dfb44d3c76ec24e429b7d7e04dae3c70 Muhammad Bilal <mbilal.dev001@gmail.com> 1679563439 +0500	commit: Add About Us Screen
+4772f8a7dfb44d3c76ec24e429b7d7e04dae3c70 2e6518aebe48eb7f3f3a1159a460448662b12f6b Muhammad Bilal <mbilal.dev001@gmail.com> 1679640716 +0500	commit: Add Spacing According to Figma in Progress
+2e6518aebe48eb7f3f3a1159a460448662b12f6b e3ebaf02d17391db96c3fab1eb41ae460d77daf1 Muhammad Bilal <mbilal.dev001@gmail.com> 1679658282 +0500	commit: Figma Changes Complete
+e3ebaf02d17391db96c3fab1eb41ae460d77daf1 2e6518aebe48eb7f3f3a1159a460448662b12f6b Muhammad Bilal <mbilal.dev001@gmail.com> 1679658488 +0500	reset: moving to Head^
+2e6518aebe48eb7f3f3a1159a460448662b12f6b 75c1d44c892f262f36deb2b8feb0f806aa150c85 Muhammad Bilal <mbilal.dev001@gmail.com> 1679658857 +0500	pull: Fast-forward
+75c1d44c892f262f36deb2b8feb0f806aa150c85 b5a1ecd9a0156d63b544aa25887ce01970adc2c9 Muhammad Bilal <mbilal.dev001@gmail.com> 1679659164 +0500	commit: Figma Design Complete
+b5a1ecd9a0156d63b544aa25887ce01970adc2c9 e97c492f8f102c1c1a7c519cc2f767c76c7df621 Muhammad Bilal <mbilal.dev001@gmail.com> 1679659472 +0500	commit: Fix Error
+e97c492f8f102c1c1a7c519cc2f767c76c7df621 6e6713e3df2b24fa5cd62545fc0d56df0ca403c0 Muhammad Bilal <mbilal.dev001@gmail.com> 1680179936 +0500	pull: Fast-forward
+6e6713e3df2b24fa5cd62545fc0d56df0ca403c0 859bd995036d7a106af6d708125c7d89fac0e721 Muhammad Bilal <mbilal.dev001@gmail.com> 1680192485 +0500	commit: Make A build
+859bd995036d7a106af6d708125c7d89fac0e721 095143b65956cc3fcf1a0ace9f94ca1b73508bef Muhammad Bilal <mbilal.dev001@gmail.com> 1680806784 +0500	commit: Font Correction And Animation
+095143b65956cc3fcf1a0ace9f94ca1b73508bef cb666cb369894fa23c09a696064c8eca3506849b Muhammad Bilal <mbilal.dev001@gmail.com> 1680894088 +0500	pull: Fast-forward
+cb666cb369894fa23c09a696064c8eca3506849b 3d37685518a86b684630c5e2c294c0a80beb897c Muhammad Bilal <mbilal.dev001@gmail.com> 1680895892 +0500	commit: Pixel Perfection
+3d37685518a86b684630c5e2c294c0a80beb897c 2d143db43e35519353eb76e9a9f651ab9f4520e8 Muhammad Bilal <mbilal.dev001@gmail.com> 1681281881 +0500	pull --tags origin build-fixes: Fast-forward
+2d143db43e35519353eb76e9a9f651ab9f4520e8 9b3c67a81059c355af59b1a6c709a8a2da145664 Muhammad Bilal <mbilal.dev001@gmail.com> 1681313733 +0500	commit: Add ContactUs API
+9b3c67a81059c355af59b1a6c709a8a2da145664 fc835d7c5ddfbb23ea6231995226aa286d348c18 Muhammad Bilal <mbilal.dev001@gmail.com> 1681350409 +0500	pull: Fast-forward
+fc835d7c5ddfbb23ea6231995226aa286d348c18 fad2b8d28b7c4f2ed3ae91f7e1a370efcb0e0f98 Muhammad Bilal <mbilal.dev001@gmail.com> 1681397687 +0500	commit: Add Add Cp in webhost email Feild
